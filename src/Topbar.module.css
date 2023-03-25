@@ -5,3 +5,31 @@
     width: 100%;
 
 }
+.TopBarText{
+    color: #62412B;
+}
+.TopBarHome{
+    position: absolute;
+    left: 26.1vw;
+    top: 20px;
+}
+
+.TopBarFindPlants{
+    position: absolute;
+    left: 36.45vw;
+    top: 20px;
+}
+
+.TopBarManage{
+    position: absolute;
+    
+    top: 20px;
+    left: 54.23vw;
+}
+
+
+.LOGO{
+    position: absolute;
+    top: 4px;
+    left: 33px;
+}
