@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Routes } from 'react-router-dom';
 import axios from "axios";
 import Home from './Home';
 import Searchplants from "./Searchplants";
+import PlantsInfo from './PlantsInfo';
 
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/page1" element={<Searchplants />} />
+        <Route path="/page2" element={<PlantsInfo />} />
       </Routes>
     </BrowserRouter>
       

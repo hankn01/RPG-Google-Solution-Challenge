@@ -1,0 +1,47 @@
+.PlantsTile{
+    position: absolute;
+    top: 163px;
+    left: 5vw;
+    right: 5vw;
+    height: 800px;
+    background-color: #FAE7C7;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px 2px grey; 
+}
+
+.PlantsTitleCaption{
+    
+}
+
+.PlantsInnerTile{
+    position: absolute;
+    top: 285px;
+    left: 8vw;
+    right: 8vw;
+    
+    height: 497px;
+    background-color: #FFFFFF;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px 2px grey; 
+}
+
+.PlantsBadgeCaption{
+
+}
+
+.PlantsWaterCaption{
+
+}
+
+.PlantsAirCaption{
+
+}
+
+.PlantsSunCaption{
+
+}
+
+.PlantsPlbCaption{
+
+
+}
