@@ -14,3 +14,20 @@
     font-family: 'Jua', sans-serif;
     padding-left: 57px;
 }
+.SearchButton{
+    position: absolute;
+    right: 8.3vw;
+    
+    top: 235px;
+    width: 64px;
+    height: 64px;
+}
+
+.RecentHistoryCaption{
+    position: absolute;
+    left: 8.3vw;
+    color: #62412B;
+    font-size: 3.3vw;
+    font-family: 'Jua', sans-serif;
+    top: 408px;
+}
