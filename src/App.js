@@ -1,12 +1,21 @@
 import React, { useEffect, useState, useRef } from "react";
+import {BrowserRouter, Route, Routes } from 'react-router-dom';
 import axios from "axios";
 import Home from './Home';
+import Searchplants from "./Searchplants";
 
 function App() {
   return(
 
     <>
-      <Home />
+    <BrowserRouter>
+     
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/page1" element={<Searchplants />} />
+      </Routes>
+    </BrowserRouter>
+      
     </>
   )
 

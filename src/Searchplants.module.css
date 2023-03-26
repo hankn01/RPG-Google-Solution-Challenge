@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+.PlantSe{
+    position: absolute;
+    left: 8.3vw;
+    height: 120px;
+    top: 206px;
+    width: 83vw;
+    background-color: #FAE7C7;
+    border: none;
+    color: #62412B;
+    font-size: 30px;
+    font-family: 'Jua', sans-serif;
+    padding-left: 57px;
+}
