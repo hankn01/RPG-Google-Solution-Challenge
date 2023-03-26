@@ -4,6 +4,7 @@ import axios from "axios";
 import Home from './Home';
 import Searchplants from "./Searchplants";
 import PlantsInfo from './PlantsInfo';
+import PlacePlants from "./PlacePlants";
 
 function App() {
   return(
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/page1" element={<Searchplants />} />
         <Route path="/page2" element={<PlantsInfo />} />
+        <Route path="/page3" element={<PlacePlants />} />
       </Routes>
     </BrowserRouter>
       

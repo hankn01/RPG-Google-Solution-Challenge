@@ -1,0 +1,8 @@
+.PlantsNameCaption{
+    position: absolute;
+    top: 250px;
+    left: 42vw;
+    font-size: 1.8rem;
+    color: #624128;
+    font-family: 'Jua', sans-serif;
+}
