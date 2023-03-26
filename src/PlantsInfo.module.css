@@ -10,6 +10,12 @@
 }
 
 .PlantsTitleCaption{
+    position: absolute;
+    top: 5vh;
+    left: 7vw;
+    font-family: 'Jua', sans-serif;
+    font-size: 2rem;
+    color: #C59A6F;
     
 }
 
@@ -22,9 +28,14 @@
     height: 497px;
     background-color: #FFFFFF;
     border-radius: 60px;
-    box-shadow: 1px 1px 5px 2px grey; 
+   
 }
 
+.InnerTileText{
+    font-size: 1.3rem;
+    font-family: 'Jua', sans-serif;
+    color: #C59A6F;
+}
 .PlantsBadgeCaption{
 
 }
