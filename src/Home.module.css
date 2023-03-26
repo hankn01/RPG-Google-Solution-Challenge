@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.LoginForm {
+   position: absolute;
+   top: 180px;
+   left: 30px;
+     
+}
+.Button{
+    color: #FFFFFF;
+    background-color: #C59A6F;
+    font-family: 'Jua', sans-serif;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Input{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom: 4px solid #C59A6F;
+    width: 25vw;
+    margin: 5px;
+    font-family: 'Jua', sans-serif;
+    outline-width: 0px;
+}
