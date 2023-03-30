@@ -76,9 +76,18 @@ function PlantsInfo() {
             <div className={`${PIStyles.PlantsTile}`}>
                 <div className={`${PIStyles.PlantsTitleCaption}`}>
                     {fileImage?res.plant_name:<div>식물 이름</div>}
+                    <br />
                    
-                </div>
 
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                
+                <div className={`${PIStyles.InnerTileCon}`}>
+                {fileImage?res.description:<div></div>}
+                </div>
 
                 
 
