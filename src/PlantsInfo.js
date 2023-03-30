@@ -135,7 +135,7 @@ function PlantsInfo() {
                 <br /><div className={`${PIStyles.InnerTileCon}`}>성장 온도: {res.grow_temperature}</div>
                 <br /><div className={`${PIStyles.InnerTileCon}`}>성장 습도: {res.grow_humidity}</div>
                
-                </div>: null}
+                </div>: <div className={`${PIStyles.NoneDiv}`}></div>}
                 
 
 
