@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/service/:path*",
+        "destination": "https://rpgplant.kro.kr/service/:path*"
+      },
+      {
+        "source": "/service/:path*/",
+        "destination": "https://rpgplant.kro.kr/:path*/"
+      }
+    ]
+  }
