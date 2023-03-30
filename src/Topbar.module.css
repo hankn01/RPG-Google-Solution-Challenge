@@ -7,23 +7,24 @@
 }
 .TopBarText{
     color: #62412B;
+    font-size: 12px;
 }
 .TopBarHome{
     position: absolute;
     left: 26.1vw;
-    top: 20px;
+    top: 5px;
 }
 
 .TopBarFindPlants{
     position: absolute;
     left: 36.45vw;
-    top: 20px;
+    top: 5px;
 }
 
 .TopBarManage{
     position: absolute;
     
-    top: 20px;
+    top: 5px;
     left: 54.23vw;
 }
 
