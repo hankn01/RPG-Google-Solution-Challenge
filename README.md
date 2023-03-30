@@ -71,12 +71,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # AI Model Using The Project
 
-## ? "ai-model" directory is code for models developed in Tensorflow.
-### ? We initially developed the model using Tensorflow, but the performance came below 50%. Therefore, rather than using Tensorflow, we decided to use `Vertex AI's AutoML` provided by Google Cloud. 
+## 📂 "ai-model" directory is code for models developed in Tensorflow.
+### 👉 We initially developed the model using Tensorflow, but the performance came below 50%. Therefore, rather than using Tensorflow, we decided to use `Vertex AI's AutoML` provided by Google Cloud. 
 
 ### For more information of Vertex AI, refer to the site below.
-## ? [Vertex AI](https://cloud.google.com/vertex-ai?hl=ko)
-## ? Vertex AI Results
+## 👉 [Vertex AI](https://cloud.google.com/vertex-ai?hl=ko)
+## 📄 Vertex AI Results
 ### Class 5 AutoML
 <img src="./ai_model/vertexai_result/class_5.png">
 
