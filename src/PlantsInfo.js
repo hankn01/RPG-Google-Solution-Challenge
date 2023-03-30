@@ -29,7 +29,7 @@ function PlantsInfo() {
     const [fileImage, setFileImage] = useState("");
     const [files, setFiles] = useState('');
     const [res, setRes] = useState({});
-    
+    const [popup, setPopup] = useState({open: false, title: "", message: "",callback: false});
     const [watering, setWatering] = useState('');
     const [airp, setAirp] = useState('');
     const [sunp, setSunp] = useState('');
@@ -51,7 +51,8 @@ function PlantsInfo() {
     const handleClick = (e) => {
         const formdata = new FormData();
         formdata.append('image', files[0]);
-
+        if(files[0])
+        {
         setFileImage(URL.createObjectURL(files[0]));
         const config = {
             Headers: {
@@ -64,16 +65,25 @@ function PlantsInfo() {
             console.log(error);
         })
         .then((response) => {
-            console.log(response.data[0]);
             setRes(response.data[0]);
         });
-        console.log(res);
+        }else{
+            setPopup({
+                open: true,
+                title: "Error",
+                message: "Please make sure all fields are filled in correctly."
+            });
+        }
     }
 
     return(
         <>
             <Topbar />
+            
+
+            
             <div className={`${PIStyles.PlantsTile}`}>
+
                 <div className={`${PIStyles.PlantsTitleCaption}`}>
                     {fileImage?res.plant_name:<div>식물 이름</div>}
                     <br />
@@ -94,16 +104,16 @@ function PlantsInfo() {
 
             </div>
             <div className={`${PIStyles.PlantsInnerTile}`}>
+
                 {fileImage?<div className={`${PIStyles.imgwrap}`}>
                 <img className={`${PIStyles.imgc}`} src={fileImage} alt="" />
                 </div>:<div className={`${PIStyles.imgwrap}`}>
-                <div className={`${PIStyles.InnerTileText}`}><br /><br /><br /><br /><br />파일을 선택하여 업로드해 주세요.</div>
+                <div className={`${PIStyles.InnerTileText}`}><br /><br /><br /><br /><br />가정에서 키우고 싶은 식물의 이미지 파일을 선택하여 업로드해 주세요.</div>
 
                     
                     </div>}
                 
-            
-                <div className={`${PIStyles.InnerTTDiv}`}>
+                {fileImage?<div className={`${PIStyles.InnerTTDiv}`}>
                 <div className={`${PIStyles.InnerTileText}`}># 물주기</div>
                 <br /><div className={`${PIStyles.InnerTileCon}`}>봄: {res.spring_water_cycle}</div>
                 <br /><div className={`${PIStyles.InnerTileCon}`}>여름: {res.summer_water_cycle}</div>
@@ -125,7 +135,8 @@ function PlantsInfo() {
                 <br /><div className={`${PIStyles.InnerTileCon}`}>성장 온도: {res.grow_temperature}</div>
                 <br /><div className={`${PIStyles.InnerTileCon}`}>성장 습도: {res.grow_humidity}</div>
                
-                </div>
+                </div>: null}
+                
 
 
                 <br />
