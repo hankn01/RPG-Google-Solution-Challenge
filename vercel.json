@@ -1,9 +1,12 @@
 {
-    "routes": [
+    "rewrites": [
       {
-        "src": "/service/.*",
-        "dest": "https://rpgplant.kro.kr/service/:splat",
-        "methods": ["GET", "POST", "PUT", "DELETE"]
+        "source": "/service/:path*",
+        "destination": "https://rpgplant.kro.kr/service/:path*"
+      },
+      {
+        "source": "/service/:path*/",
+        "destination": "https://rpgplant.kro.kr/:path*/"
       }
     ]
   }
