@@ -4,6 +4,7 @@
     left: 5vw;
     right: 5vw;
     height: 800px;
+    margin-bottom: 100px;
     background-color: #FAE7C7;
     border-radius: 12px;
     box-shadow: 1px 1px 2px 2px grey; 
@@ -36,6 +37,13 @@
     font-family: 'Jua', sans-serif;
     color: #C59A6F;
 }
+.InnerTileCon{
+    font-size: 1rem;
+    font-family: 'Jua', sans-serif;
+    color: #62412B;
+    padding-left: 30px;
+    line-height: 0.9rem;
+}
 .PlantsBadgeCaption{
 
 }
@@ -55,4 +63,54 @@
 .PlantsPlbCaption{
 
 
+}
+
+.Button{
+    color: #FFFFFF;
+    background-color: #C59A6F;
+    font-family: 'Jua', sans-serif;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 2vw;
+    font-weight: 500;
+    margin: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    
+}
+
+
+.imgwrap{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+width: 300px;
+height: 300px;
+border-radius: 30px;
+border-color: black;
+border-width: 1px;
+border-style: solid;
+overflow: hidden;
+
+box-shadow: 1px 1px 4px 2px grey; 
+
+}
+.imgc {
+
+    width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.InnerTTDiv{
+    position: absolute;
+    left: 350px;
+}
+
+.upwrap{
+    position: absolute;
+    top: 530px;
+    left: 10px;
 }
