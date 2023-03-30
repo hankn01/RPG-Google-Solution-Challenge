@@ -120,3 +120,11 @@ object-fit: cover;
     bottom: 0px;
     height: 100px;
 }
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../public/img/plant-2004483.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
+}
