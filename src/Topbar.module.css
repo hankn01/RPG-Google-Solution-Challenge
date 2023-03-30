@@ -1,12 +1,12 @@
 .TopbarBackground{
-    background-color: #FFFFFF;
+    background-color: #62412B;
     position: absolute;
     height: 50px;
     width: 100%;
 
 }
 .TopBarText{
-    color: #62412B;
+    color: #FFFFFF;
     font-size: 12px;
 }
 .TopBarHome{
