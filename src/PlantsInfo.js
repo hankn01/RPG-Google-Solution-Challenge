@@ -59,7 +59,7 @@ function PlantsInfo() {
             },
         };
 
-        axios.post('../service/inference/', formdata, config)
+        axios.post('/service/inference/', formdata, config)
         .catch((error) =>{
             console.log(error);
         })
