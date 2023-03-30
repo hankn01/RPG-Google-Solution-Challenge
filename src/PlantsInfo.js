@@ -161,7 +161,9 @@ function PlantsInfo() {
             </div>
             
             
-
+            <div className={`${PIStyles.footer}`}>
+                
+            </div>
             
 
         </>
