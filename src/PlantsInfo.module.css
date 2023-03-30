@@ -116,9 +116,9 @@ object-fit: cover;
 }
 .NoneDiv{
     position: absolute;
-    left: 40vw;
-    top: 500px;
-    width: 400px;
+    left: 20vw;
+    top: 0px;
+    width: 600px;
     height: 300px;
     background-color: #DAEC1E;
 }
