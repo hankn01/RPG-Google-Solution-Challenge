@@ -136,7 +136,7 @@ function PlantsInfo() {
                 <br /><div className={`${PIStyles.InnerTileCon}`}>성장 습도: {res.grow_humidity}</div>
                
                 </div>: <div className={`${PIStyles.NoneDiv}`}>
-                <div className={`${PIStyles.InnerTileText}`}>당신의 집에 꼭 맞는 식물을 찾아드립니다! 환경과 건강을 모두 챙기세요!</div>
+                <div className={`${PIStyles.InnerTileText}`}><br /> <br /><br />당신의 집에 꼭 맞는 식물을 찾아드립니다! <br />환경과 건강을 모두 챙기세요!</div>
 
                     </div>}
                 
